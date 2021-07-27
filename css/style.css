@@ -1,0 +1,95 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15 px;
+    margin: 0 auto;
+}
+
+.tab {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+}
+
+
+/* Style the buttons inside the tab */
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+
+/* Change background color of buttons on hover */
+
+
+/*.tab button:hover {
+    /*  background-color: #ddd;
+}*/
+
+
+/* Create an active/current tablink class */
+
+.tab button.active {
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+.tablinks {
+    color: #ccc;
+    border-bottom: 1px solid transparent;
+}
+
+
+/* Style the tab content */
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+
+input:invalid {
+    border: 1px solid red;
+    color: red;
+}
+
+input:valid {
+    border: 1px solid #ccc;
+}
